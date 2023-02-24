@@ -1,5 +1,6 @@
 import { Header } from "./components/Header";
 import { NewTask } from "./components/NewTask";
+import { Tasks } from "./components/Tasks";
 import "./global.css";
 
 export function App() {
@@ -7,6 +8,7 @@ export function App() {
     <>
       <Header />
       <NewTask />
+      <Tasks />
     </>
   );
 }

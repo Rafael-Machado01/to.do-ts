@@ -1,0 +1,11 @@
+.Info {
+  display: inline-block;
+}
+.Added {
+  padding-left: 360px;
+  padding-right: 582px;
+  color: var(--blue);
+}
+.End {
+  color: var(--purple);
+}
