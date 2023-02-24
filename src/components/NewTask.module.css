@@ -1,0 +1,31 @@
+.Form {
+  display: inline-block;
+}
+.TextArea {
+  position: absolute;
+  width: 736px;
+  height: 68px;
+  left: 352px;
+  top: 200px;
+  color: var(--gray-300);
+  background: var(--gray-500);
+  resize: none;
+  border-radius: 8px;
+  line-height: 1.4;
+  border-radius: 8px;
+  border: solid 1px var(--gray-700);
+}
+.TextArea::placeholder {
+  padding-left: 2rem;
+  padding-top: 20px;
+}
+
+.Form button {
+  color: var(--gray-100);
+  background: var(--blue-dark);
+  border: 0;
+  margin-left: 69rem;
+  width: 73px;
+  height: 68px;
+  border-radius: 8px;
+}
