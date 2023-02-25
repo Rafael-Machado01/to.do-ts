@@ -1,11 +1,33 @@
 .Info {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
 }
 .Added {
-  padding-left: 360px;
-  padding-right: 582px;
   color: var(--blue);
+  padding-right: 450px;
 }
 .End {
   color: var(--purple);
+}
+
+.Summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  padding-top: 100px;
+  width: 736px;
+  height: 287px;
+  left: calc(50% - 736px / 2 - 3px);
+  top: 295px;
+}
+
+.Summary img {
+  width: 86px;
+  height: 76px;
+}
+.Summary strong {
+  padding-top: 32px;
 }

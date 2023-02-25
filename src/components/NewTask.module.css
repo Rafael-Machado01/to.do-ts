@@ -1,31 +1,35 @@
 .Form {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .TextArea {
   position: absolute;
   width: 736px;
   height: 68px;
-  left: 352px;
-  top: 200px;
   color: var(--gray-300);
   background: var(--gray-500);
   resize: none;
-  border-radius: 8px;
-  line-height: 1.4;
-  border-radius: 8px;
   border: solid 1px var(--gray-700);
+  border-radius: 12px;
+  line-height: 1.4;
 }
 .TextArea::placeholder {
-  padding-left: 2rem;
-  padding-top: 20px;
+  padding: 20px;
 }
-
 .Form button {
+  position: absolute;
+  margin-left: 850px;
   color: var(--gray-100);
   background: var(--blue-dark);
   border: 0;
-  margin-left: 69rem;
-  width: 73px;
-  height: 68px;
+  width: 90px;
+  height: 62px;
   border-radius: 8px;
+  transition: ease-in-out 0.2s;
+  text-align: center;
+}
+.Form button:hover {
+  background: var(--blue);
 }

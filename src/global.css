@@ -17,10 +17,13 @@
 
   --red: #e25858;
 }
-
+::selection {
+  background: transparent;
+  color: var(--purple);
+}
 :focus {
   outline: transparent;
-  box-shadow: 0 0 0 2px var(--green-500);
+  box-shadow: 0 0 0 2px var(--purple-dark);
 }
 * {
   margin: 0;

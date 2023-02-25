@@ -5,11 +5,10 @@ function handleNewTaskInvalid(event: InvalidEvent<HTMLTextAreaElement>) {
   event.target.setCustomValidity("Este campo é obrigatório");
 }
 
-function handleCreateNewTask(event: FormEvent) {
-  event.preventDefault();
-  setTaks([...Tasks, newTaskText]);
-  setNewCommentText("");
-}
+//function handleCreateNewTask(event: FormEvent) {
+//event.preventDefault();
+//setTaks([...Tasks, newTaskText]);
+//setNewCommentText("");
 
 // const isNewTaskEmpty = newTaskText.trim().length === 0;
 export function NewTask() {
@@ -20,10 +19,10 @@ export function NewTask() {
       <textarea
         className={styles.TextArea}
         name="New Task"
-        placeholder="Adicione uma nova tarefa!"
+        placeholder="Adicione uma nova tarefa !"
         onInvalid={handleNewTaskInvalid}
-        value={newTaskText}
-        onChange={handleNewTaskChange}
+        //value={newTaskText}
+        //onChange={handleNewTaskChange}
         required
       ></textarea>
       <button
